@@ -1,0 +1,214 @@
+:root {
+  --color-primary: #0275D8;
+  --color-secondary: white;
+  --color-gradient-start: #27ae60;
+  --color-gradient-stop: #27ae60;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.625em;
+  letter-spacing: 0.01em;
+  font-size: 1em;
+  color: black;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Rubik', sans-serif;
+  color: Black;
+}
+
+.h1,
+h1 {
+  font-weight: 300;
+  line-height: 1.244em;
+  font-size: 45px;
+}
+
+.h2,
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.285em;
+}
+
+.h3,
+h3 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.342em;
+}
+
+.h4,
+h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.35em;
+}
+
+.h5,
+h5 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.35em;
+}
+
+.h6,
+h6 {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.navbar-brand {
+  padding: 30px 30px 30px 0;
+}
+
+.main-header .btn-underlined {
+  color: #fff;
+}
+
+.main-header .btn-underlined:after {
+  background-color: currentColor;
+}
+
+.main-header .btn-bordered {
+  border-color: #fff;
+  color: #fff;
+}
+
+.main-header .btn-bordered:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+.main-header.megamenu-scheme-light .btn {
+  border-color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.main-nav > li > a {
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.main-footer {
+  padding-top: 70px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer a:not(.btn) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer a:not(.btn):hover {
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .main-header .is-stuck {
+    background: #fff !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a,
+  .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+  .mainbar-wrap.is-stuck .main-nav > li > a,
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    color: Black !important;
+  }
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    border-color: Black !important;
+  }
+  .is-stuck .btn-underlined {
+    color: #3d3d3d;
+  }
+  .is-stuck .btn-underlined:after {
+    background-color: #000;
+  }
+  .is-stuck .btn-underlined:hover {
+    color: #000;
+  }
+  .is-stuck .btn-bordered {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+  .is-stuck .btn-bordered:hover {
+    border-color: #3d3d3d;
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+}
+
+.bg-cover.bg-center {
+  background-image: url('../../demo/bg/bg9.jpg');
+}
+
+.showOnMobile {
+  display: none;
+}
+
+.marginBot20 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+  .paddingSides50.lqd-column {
+    padding: 0 50px;
+  }
+  .courseContent {
+    text-align: center;
+  }
+  .centerText {
+    text-align:center;
+  }
+  .fullWidthButton {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-cover.bg-center {
+    background-image: none;
+    background-color: #0275D8;
+  }
+  .contact-form-button-block input.topCTAButton {
+    background-color: #d85002;
+    border: 1px solid #d85002;
+  }
+  .paddingSides50.lqd-column {
+    padding: 0 15px;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .paddingSides50.lqd-column {
+    padding: 0 15px;
+  }
+}
