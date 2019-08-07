@@ -152,17 +152,20 @@ h6 {
     color: #fff;
   }
 }
-
 .bg-cover.bg-center {
   background-image: url('../../demo/bg/bg9.jpg');
 }
-
 .showOnMobile {
   display: none;
 }
-
 .marginBot20 {
   margin-bottom: 20px;
+}
+.formWrap p {
+  display: none;
+}
+fieldset { 
+  margin: 0;
 }
 
 @media only screen and (max-width: 991px) {
