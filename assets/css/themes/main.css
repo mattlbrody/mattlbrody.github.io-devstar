@@ -167,6 +167,10 @@ h6 {
 fieldset { 
   margin: 0;
 }
+.top100 {
+  position: relative;
+  top: 150px;
+}
 
 @media only screen and (max-width: 991px) {
   .hideOnMobile {
@@ -207,6 +211,9 @@ fieldset {
   }
   .showOnMobile {
     display: block;
+  }
+  .top100 {
+    position: static;
   }
 }
 
